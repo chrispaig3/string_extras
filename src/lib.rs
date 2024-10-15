@@ -3,8 +3,8 @@ use core::ops::Range;
 
 #[derive(Debug, PartialEq, Eq)]
 pub struct Snippet {
-    text: String,
-    length: usize,
+    pub text: String,
+    pub length: usize,
 }
 
 /// snippet: Is a handy function for parsing snippets of text out of Strings.
