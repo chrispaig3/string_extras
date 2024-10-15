@@ -1,3 +1,4 @@
+#[warn(missing_docs, missing_debug_implementations)]
 use core::ops::Range;
 
 #[derive(Debug, PartialEq, Eq)]
